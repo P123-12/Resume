@@ -1,4 +1,4 @@
-/* General Reset */
+
 
 * {
     margin: 0;
@@ -19,13 +19,13 @@ body {
 }
 
 
-/* Template Container */
+
 
 .container {
     width: 210mm;
-    /* A4 width */
+
     height: 270mm;
-    /* A4 height */
+   
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -35,13 +35,13 @@ body {
 }
 
 
-/* Header */
+
 
 header {
     background-color: rgb(207, 182, 183);
-    /* Header background color */
+  
     padding: 50px, 50px;
-    /* Add padding for height */
+   
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     width: 100%;
@@ -61,7 +61,7 @@ header h1 {
 }
 
 
-/* Main Layout */
+
 
 main {
     display: flex;
@@ -69,13 +69,12 @@ main {
 }
 
 
-/* Left Sidebar (Column) */
 
 .column {
     width: 37%;
     margin-top: -170px;
     background-color: rgb(174, 145, 147);
-    /* Sidebar background */
+  
     padding: 30px;
     display: flex;
     margin-left: 10px;
@@ -87,12 +86,12 @@ main {
 }
 
 
-/* Right Main Content (Column) */
+
 
 .column1 {
     width: 70%;
     background-color: #ffffff;
-    /* White background for main content */
+    
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -101,7 +100,7 @@ main {
 }
 
 
-/* Section Styling */
+
 
 section {
     margin-bottom: 20px;
@@ -111,10 +110,10 @@ section h2 {
     font-size: 18px;
     font-weight: bold;
     color: black;
-    /* Section title color */
+  
     margin-bottom: 10px;
     border-bottom: 2px solid #d1bcbc;
-    /* Light underline */
+  
     padding-bottom: 5px;
 }
 
@@ -136,7 +135,7 @@ li {
 }
 
 
-/* Specific Section Adjustments */
+
 
 .profile {
     margin-top: 180px;
@@ -174,15 +173,3 @@ li {
 }
 
 
-/* For Print Compatibility */
-
-@media print {
-    body {
-        background-color: #fff;
-        margin: 0;
-    }
-    .container {
-        box-shadow: none;
-        border: none;
-    }
-}
